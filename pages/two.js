@@ -1,4 +1,4 @@
-export default function Index() {
+export default function Two() {
   return (
     <div>
       <h1>Now we Have New page </h1>
