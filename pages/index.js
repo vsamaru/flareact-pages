@@ -3,7 +3,16 @@ import firebase from "../lib/firebase";
 import AddRfp from "../components/Add";
 import RFPItem from "../components/RFPItem";
 
-export default class extends React.Component {
+export default function Index() {
+//   return (
+//     <div>
+//       <h1>Now we Have New page </h1>
+//       <h3>Stay Tuned</h3>
+//     </div>
+//   );
+
+
+class extends React.Component {
   constructor() {
     super();
     this.state = { loading: true, rfps: {} };
@@ -38,4 +47,5 @@ export default class extends React.Component {
       </div>
     );
   }
+}
 }
